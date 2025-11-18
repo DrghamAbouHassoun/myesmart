@@ -1,26 +1,62 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-poppins: var(--font-poppins);
+  --font-roboto: var(--font-roboto);
+  --font-cairo: var(--font-cairo);
+  --font-tajawal: var(--font-tajawal);
+  --color-primary: #02C602;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] h6 {
+  font-family: var(--font-cairo);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html[dir="ltr"] h1,
+html[dir="ltr"] h2,
+html[dir="ltr"] h3,
+html[dir="ltr"] h4,
+html[dir="ltr"] h5,
+html[dir="ltr"] h6 {
+  font-family: var(--font-poppins);
+}
+
+html[dir="rtl"] p,
+html[dir="rtl"] span,
+html[dir="rtl"] a,
+html[dir="rtl"] button,
+html[dir="rtl"] input,
+html[dir="rtl"] textarea,
+html[dir="rtl"] select,
+html[dir="rtl"] option {
+  font-family: var(--font-tajawal);
+}
+
+html[dir="ltr"] p,
+html[dir="ltr"] span,
+html[dir="ltr"] a,
+html[dir="ltr"] button,
+html[dir="ltr"] input,
+html[dir="ltr"] textarea,
+html[dir="ltr"] select,
+html[dir="ltr"] option {
+  font-family: var(--font-poppins);
+}
+
+  .font-cairo {
+    font-family: var(--font-cairo) !important;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+  .font-poppins {
+    font-family: var(--font-poppins) !important;
+  }
+  .font-tajawal {
+    font-family: var(--font-tajawal) !important;
+  }
+  .font-roboto {
+    font-family: var(--font-roboto) !important;
+  }

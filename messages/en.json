@@ -1,0 +1,25 @@
+{
+  "Common": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "projects": "Projects",
+    "services": "Services"
+  },
+  "Home": {
+    "Hero": {
+      "smallTitle": "Welcome to the Future of Living",
+      "title": "Smart Homes, Smarter Living.",
+      "subtitle": "Transform your space with intelligent automation — lighting, climate control, security, and more, all at your fingertips. Discover the comfort, efficiency, and peace of mind only eSMART can offer."
+    }
+  },
+  "About": {
+    "about-esmart": "About eSMART UAE",
+    "about-esmart-description": "At eSMART UAE, we believe in transforming everyday living through intelligent home automation. As the exclusive regional partner of the Swiss-based eSMART Technologies, we bring award-winning smart home solutions to the UAE, empowering property developers, landlords, and homeowners with flexible, eco-friendly technology — without the need for additional wiring."
+  },
+  "Services": {
+    "title": "Our Services",
+    "description": "We offer a wide range of services to help you save energy and money. Our services are designed to help you reduce your energy consumption and improve your home's energy efficiency.",
+    "learn-more": "Learn More"
+  }
+}
