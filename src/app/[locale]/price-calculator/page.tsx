@@ -1,4 +1,5 @@
 import PriceCalculatorForm from "@/modules/common/components/PriceCalculator/PriceCalculatorForm";
+import PriceModalProvider from "@/modules/common/context/PriceModalProvider";
 import { getTranslations } from "next-intl/server";
 
 const page = async () => {
@@ -8,7 +9,9 @@ const page = async () => {
       <div className="max-w-[800px] mx-auto w-full flex flex-col gap-4">
         <h1 className="text-4xl font-bold text-center">{t("title")}</h1>
         <p className="text-lg text-gray-500 text-center">{t("description")}</p>
-        <PriceCalculatorForm />
+        <PriceModalProvider>
+          <PriceCalculatorForm />
+        </PriceModalProvider>
       </div>
     </div>
   );
