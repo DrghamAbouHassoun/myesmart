@@ -1,6 +1,6 @@
 "use client";
 import { SITE_NAME } from "@/config/constants";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import LangSwitcher from "./LangSwitcher";
@@ -34,6 +34,8 @@ export const navLinks = [
 ];
 
 const Navbar = () => {
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
   const [isScrolled, setIsScrolled] = useState(false);
   const locale = useLocale();
   const t = useTranslations("Common");
@@ -50,15 +52,15 @@ const Navbar = () => {
       <Menu />
       <div
         className={`flex justify-between items-center px-8 py-4 fixed top-0 left-0 w-full z-50  ${
-          isScrolled ? "bg-white text-black" : "bg-black/0 text-white"
+          !isScrolled && isHomePage ? "bg-black/0 text-white": "bg-white text-black"
         } transition-all duration-300`}
       >
-        <Link href="/" className="relative block w-[150px] h-auto">
+        <Link href="/" className="relative block w-[150px] max-h-[50px] h-auto">
           <Image
-            src={isScrolled ? "/esmart-dark.png" : "/esmart-light.png"}
+            src={!isScrolled && isHomePage ? "/esmart-light.png" : "/esmart-dark.png"}
             alt={SITE_NAME}
             width={200}
-            height={200}
+            height={50}
             className="w-full h-auto object-contain"
           />
         </Link>
