@@ -6,6 +6,7 @@
   --font-cairo: var(--font-cairo);
   --font-tajawal: var(--font-tajawal);
   --color-primary: #02C602;
+  --color-primary-shadow: #02C60233;
 }
 
 html[dir="rtl"] h1,
