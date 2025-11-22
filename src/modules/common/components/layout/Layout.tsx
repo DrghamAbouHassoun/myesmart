@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import MenuProvider from "../../context/MenuProvider";
+import Footer from "./Footer";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -8,6 +9,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <div>
         <Navbar />
         {children}
+        <Footer />
       </div>
     </MenuProvider>
   );

@@ -8,6 +8,7 @@ import { getLocale, getTranslations } from "next-intl/server";
 import MenuButton from "./MenuButton";
 import Menu from "./Menu";
 import { useLocale, useTranslations } from "next-intl";
+import PopUp from "../Animations/PopUp";
 
 export const navLinks = [
   {
@@ -52,7 +53,7 @@ const Navbar = () => {
           isScrolled ? "bg-white text-black" : "bg-black/0 text-white"
         } transition-all duration-300`}
       >
-        <div className="relative w-[150px] h-auto">
+        <Link href="/" className="relative block w-[150px] h-auto">
           <Image
             src={isScrolled ? "/esmart-dark.png" : "/esmart-light.png"}
             alt={SITE_NAME}
@@ -60,22 +61,24 @@ const Navbar = () => {
             height={200}
             className="w-full h-auto object-contain"
           />
-        </div>
+        </Link>
         <div
           className={`items-center gap-4 hidden md:flex ${
             locale === "ar" ? "font-cairo" : "font-poppins"
           }`}
         >
           {navLinks.map((link) => (
-            <Link
-              key={link.id}
-              href={link.href}
-              className={`font-semibold hover:text-primary transition-all duration-300 ${
-                locale === "ar" ? "font-cairo" : "font-poppins"
-              }`}
-            >
-              {t(link.label)}
-            </Link>
+            <PopUp key={link.id}>
+              <Link
+                key={link.id}
+                href={link.href}
+                className={`font-semibold hover:text-primary transition-all duration-300 ${
+                  locale === "ar" ? "font-cairo" : "font-poppins"
+                }`}
+              >
+                {t(link.label)}
+              </Link>
+            </PopUp>
           ))}
         </div>
         <div className=" w-[150px] flex justify-end items-center gap-4">

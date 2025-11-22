@@ -4,7 +4,24 @@
     "about": "About",
     "contact": "Contact",
     "projects": "Projects",
-    "services": "Services"
+    "services": "Services",
+    "links": "Links",
+    "terms-and-conditions": "Terms and Conditions",
+    "privacy-policy": "Privacy Policy",
+    "cookies-policy": "Cookies Policy",
+    "address": "Address",
+    "address-1-line-1": "Dubai, Media city, ",
+    "address-1-line-2": "arjan office tower 205,206",
+    "address-1-line-3": "United Arab Emirates",
+    "address-line-2": "Avenue des Baumettes 23",
+    "address-2-line-1": "CH-1020 Renens",
+    "address-2-line-2": "Switzerland",
+    "social": "Social",
+    "privacy": "Privacy",
+    "copyright": "Copyright © 2025 eSMART. All rights reserved.",
+    "Footer": {
+      "description": "Transform your space with intelligent automation — lighting, climate control, security, and more, all at your fingertips. Discover the comfort, efficiency, and peace of mind only eSMART can offer."
+    }
   },
   "Home": {
     "Hero": {
@@ -21,5 +38,10 @@
     "title": "Our Services",
     "description": "We offer a wide range of services to help you save energy and money. Our services are designed to help you reduce your energy consumption and improve your home's energy efficiency.",
     "learn-more": "Learn More"
+  },
+  "PriceCalculator": {
+    "title": "Price Calculator",
+    "description": "Calculate the price of your smart home project.",
+    "calculate": "Calculate"
   }
 }
