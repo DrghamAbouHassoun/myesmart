@@ -32,6 +32,11 @@ export const mainLinks = [
     href: "/services",
     label: "services",
   },
+  {
+    id: 6,
+    href: "/price-calculator",
+    label: "price-calculator",
+  }
 ];
 
 export const privacyLinks = [
