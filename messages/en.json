@@ -32,8 +32,75 @@
     }
   },
   "About": {
-    "about-esmart": "About eSMART UAE",
-    "about-esmart-description": "At eSMART UAE, we believe in transforming everyday living through intelligent home automation. As the exclusive regional partner of the Swiss-based eSMART Technologies, we bring award-winning smart home solutions to the UAE, empowering property developers, landlords, and homeowners with flexible, eco-friendly technology — without the need for additional wiring."
+    "about-esmart": "About eSMART",
+    "about-esmart-description": "In eSMART UAE, we believe in transforming everyday life through intelligent home automation. As the leading regional agency for Swiss eSMART, we bring Europe's most award-winning home automation solutions to the United Arab Emirates, empowering developers, property managers, and homeowners with smart, flexible, and green technology — without the need for additional wiring.",
+    "title": "Smart Living, Simplified.",
+    "intro": {
+      "paragraph1": "Welcome to eSMART UAE, the official regional agency bringing Europe's leading home automation and smart-building solution to the United Arab Emirates. Our mission is to transform residential and commercial properties into efficient, intelligent, and future-ready spaces — all powered by eSMART's patented technology.",
+      "paragraph2": "Backed by Swiss innovation and designed for modern sustainability standards, eSMART UAE empowers developers, property managers, and homeowners to embrace a smarter and more responsible way of living."
+    },
+    "sustainability": {
+      "title": "Driving Sustainability & Meeting ESG Standards",
+      "paragraph1": "Environmental responsibility is no longer optional — it's essential. With eSMART, your projects instantly align with global ESG criteria, specifically in energy efficiency and sustainable building management.",
+      "paragraph2": "Our system helps you:",
+      "list": {
+        "item1": "Reduce environmental impact",
+        "item2": "Optimize energy usage across every unit",
+        "item3": "Meet modern sustainability standards with confidence"
+      },
+      "paragraph3": "This gives developers and property owners a tangible competitive edge, ensuring your buildings are positioned for the future."
+    },
+    "energyInsights": {
+      "title": "Real-Time Energy Insights for Occupants",
+      "paragraph1": "eSMART gives occupants full visibility into their energy behavior:",
+      "list": {
+        "item1": "Real-time monitoring of heating, hot water, and electricity",
+        "item2": "Ability to set energy goals",
+        "item3": "Easy access to consumption history",
+        "item4": "Meaningful tools to encourage responsible energy habits"
+      },
+      "paragraph2": "With the simple act of measuring and controlling consumption, users experience an average energy bill reduction of 13.2% — a major value add for both property owners and tenants."
+    },
+    "propertyManagement": {
+      "title": "Smarter & Easier Property Management",
+      "paragraph1": "eSMART transforms building management by eliminating the hassles of manual supervision. Property managers benefit from:",
+      "list": {
+        "item1": "No more on-site meter reading",
+        "item2": "Digital access to data for heating, cold water, and hot water",
+        "item3": "Exportable consumption reports per building and per apartment",
+        "item4": "Automated billing management",
+        "item5": "Reliable tenant turnover statements"
+      },
+      "paragraph2": "This ensures faster processes, fewer disputes, and a more professional management experience across your portfolio."
+    },
+    "technology": {
+      "title": "Advanced Technology With No Extra Infrastructure Needed",
+      "paragraph1": "What sets eSMART apart in the UAE market is its cost-effective, installation-friendly technology:",
+      "list": {
+        "item1": "No additional wiring required",
+        "item2": "No switchboard intervention",
+        "item3": "No bus line",
+        "item4": "Powered entirely by optimized PLC (Power Line Communication) through existing electrical wiring"
+      },
+      "paragraph2": "Each module is discreetly installed behind the electrical switch inside the flush-mounted box. These invisible modules connect all devices to the eSMART interface, providing real-time data, controls, and automation without modifying your electrical infrastructure. A temperature sensor in each room allows precise heating regulation, and the system integrates easily with existing equipment — with zero constraints."
+    },
+    "agency": {
+      "title": "eSMART UAE — Bringing Swiss Innovation to the Gulf",
+      "paragraph1": "As the official agency for the UAE, our role is to ensure trusted deployment, premium support, and tailored smart solutions aligned with local building standards. We proudly serve:",
+      "list": {
+        "item1": "Real estate developers",
+        "item2": "Property management companies",
+        "item3": "Smart home and smart building integrators",
+        "item4": "Commercial property owners",
+        "item5": "Residential communities",
+        "item6": "Contractors & MEP consultants"
+      },
+      "paragraph2": "From consultation to installation and ongoing support, eSMART UAE is committed to elevating buildings across the Emirates with the world's most elegant and reliable smart-home ecosystem."
+    },
+    "conclusion": {
+      "title": "Your Building, Smarter Than Ever",
+      "paragraph1": "With eSMART UAE, innovation becomes accessible, sustainability becomes simple, and property management moves into a new era of intelligence."
+    }
   },
   "Services": {
     "title": "Our Services",
